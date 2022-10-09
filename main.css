@@ -1,0 +1,43 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    
+}
+h1{
+    margin-bottom: 40px;
+}
+.range{
+    background-color: #fff;
+    width: 600px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #000;
+    overflow: hidden;
+    
+}
+.process{
+    background: linear-gradient(to right, #bb69cc, #246bac);
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: #fff;
+
+    
+
+}
